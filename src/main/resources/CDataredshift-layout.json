@@ -10,7 +10,7 @@
         "isGeneral": true,
         "sections": [
           {
-            "name": "Redshift Source",
+            "name": "CData Redshift Source",
             "layout": "row",
             "elements": [
                 {

@@ -19,9 +19,9 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.google.common.annotations.VisibleForTesting;
 import io.protostuff.Tag;
 
-@SourceType(value = "RedshiftARP", label = "Redshift",uiConfig = "redshift-layout.json")
-public class RedshiftConf extends AbstractArpConf<RedshiftConf> {
-  private static final String ARP_FILENAME = "arp/implementation/redshift-arp.yaml";
+@SourceType(value = "RedshiftARP", label = "CData Redshift",uiConfig = "CDataredshift-layout.json")
+public class CDataRedshiftConf extends AbstractArpConf<RedshiftConf> {
+  private static final String ARP_FILENAME = "arp/implementation/CDataredshift-arp.yaml";
   private static final ArpDialect ARP_DIALECT =
       AbstractArpConf.loadArpFile(ARP_FILENAME, (ArpDialect::new));
   private static final String DRIVER = "cdata.jdbc.redshift.RedshiftDriver";
